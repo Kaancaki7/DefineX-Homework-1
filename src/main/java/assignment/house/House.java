@@ -2,23 +2,23 @@ package assignment.house;
 
 public class House {
 
-    private Long price;
+    private long price;
     private int squareMeter;
     private int numberOfRooms;
     private int numberOfLivingRooms;
 
-    public House(Long price, int squareMeter, int numberOfRooms, int numberOfLivingRooms) {
+    public House(long price, int squareMeter, int numberOfRooms, int numberOfLivingRooms) {
         this.price = price;
         this.squareMeter = squareMeter;
         this.numberOfRooms = numberOfRooms;
         this.numberOfLivingRooms = numberOfLivingRooms;
     }
 
-    public Long getPrice() {
+    public long getPrice() {
         return price;
     }
 
-    public void setPrice(Long price) {
+    public void setPrice(long price) {
         this.price = price;
     }
 
